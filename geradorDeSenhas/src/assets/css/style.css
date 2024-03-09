@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.container {
+    border-radius: 5px;
+    max-width: 540px;
+    margin: 50px auto;
+    background-color: rgb(53, 77, 122);
+    padding: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 70%;
+    margin-bottom: 25px;
+    padding: 5px;
+    margin: auto;
+}
+
+form label {
+    color: white;
+}
+
+form input {
+    font-size: 24px;
+    height: 30px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid cornflowerblue;
+}
+
+form button {
+    font-size: 12px;
+    height: 30px;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+.senha-gerada {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.gerar-senha {
+    display: block;
+    margin: 20px 20px;
+    font-size: 1em;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
